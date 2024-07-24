@@ -1,0 +1,61 @@
+.topPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+    width: 100%;
+}
+
+.topPage h1{
+    font-size: 3rem;
+}
+
+.imageFull{
+    width: 100%;
+    height: 250px;
+}
+
+.imageFull img{
+    width: 100%;
+    height: 100%;
+}
+
+.middleText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 35px 0;
+
+}
+
+.middleText p{
+    max-width: 900px;
+}
+
+.containerBottom{
+    display: flex;
+}
+
+.containerBottom .imageSingle{
+    width: 520px;
+    height: 410px;
+  
+}
+
+.containerBottom .imageSingle img{
+    width: 100%;
+    height: 100%;
+}
+
+.containerBottom .sideText{
+    width: 80%;
+    padding: 0 120px;
+}
+
+.containerBottom .sideText h2{
+    text-align: end;
+    font-size: 2rem;
+}
