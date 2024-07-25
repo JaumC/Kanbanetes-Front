@@ -1,4 +1,4 @@
-import style from './Navbar.module.css'
+import './Navbar.css'
 import { useState } from "react";
 import ModalLogin from '../ModalLogin/ModalLogin';
 
@@ -9,9 +9,9 @@ export function Navbar(){
     const closeModal = () => setModalOpen(false);
     return(
         <>
-            <nav className={style.container}>
+            <nav className='container'>
                 <p>Kanbanetes</p>
-                <div onClick={openModal} className={style.userIcon}>
+                <div onClick={openModal} className='userIcon'>
                     <img src="../src/assets/UserIcon.svg" alt="" />
                 </div>
             </nav>

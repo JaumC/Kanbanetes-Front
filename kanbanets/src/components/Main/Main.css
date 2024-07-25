@@ -53,9 +53,50 @@
 .containerBottom .sideText{
     width: 80%;
     padding: 0 120px;
+    text-align: justify;
 }
 
 .containerBottom .sideText h2{
     text-align: end;
     font-size: 2rem;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 670px) {
+    .topPage {
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .topPage h1{
+        font-size: 1.8rem;
+    }
+
+    .imageFull {
+        width: 100vw;
+        height: 100px;
+    }
+
+    .middleText p {
+        padding: 20px;
+    }
+
+    .containerBottom{
+        flex-direction: column;
+    }
+
+    .containerBottom .imageSingle{
+        width: 100vw;
+        height: 310px;
+    }
+
+    .containerBottom .sideText {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .containerBottom .sideText, .containerBottom .sideText h2{
+        text-align: justify;
+    }
 }
