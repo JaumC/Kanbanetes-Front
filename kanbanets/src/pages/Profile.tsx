@@ -1,11 +1,9 @@
-import { Boarder } from "../components/Boarder/Boarder";
 import { Navbar } from "../components/Navbar/Navbar";
 
-export function Boards(){
+export function Profile(){
     return(
         <>
             <Navbar/>
-            <Boarder/>
         </>
     )
 }

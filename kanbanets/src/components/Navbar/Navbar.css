@@ -10,9 +10,14 @@
     font-size: 2rem;
 }
 
+.container a p{
+    color:white;
+}
+
 .container .userIcon{
     width: 55px;
     height: 55px;
+    cursor: pointer;
 }
 
 .container .userIcon img{

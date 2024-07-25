@@ -10,7 +10,7 @@ export function Navbar(){
     return(
         <>
             <nav className='container'>
-                <p>Kanbanetes</p>
+                <a href="/"><p>Kanbanetes</p></a>
                 <div onClick={openModal} className='userIcon'>
                     <img src="../src/assets/UserIcon.svg" alt="" />
                 </div>
