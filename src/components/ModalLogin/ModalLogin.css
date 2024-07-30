@@ -1,0 +1,66 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.164);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background: #444444;
+  color: white;
+  width: 600px;
+  height: 300px;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+}
+
+.modalContent h2{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.modalContent .loginInputs{
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  height: 30px;
+}
+
+.modalContent .loginButton{
+  color: white;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #448026;
+  cursor: pointer;
+}
+
+.modalContent .signContainer{
+  text-align: end;
+
+}
+
+.modalContent .signContainer a{
+  color: #FF9680;
+  font-size: 2rem; 
+  cursor: pointer;
+  
+}
+
+
+@media (max-width: 670px){
+  .modalContent{
+      width: 90%;
+  }
+}
