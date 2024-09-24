@@ -1,0 +1,151 @@
+.modalProfile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.164);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalProfile .profileContent {
+    background: #444444;
+    color: white;
+    width: 700px;
+    height: 400px;
+    padding: 35px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modalProfile .profileContent .infoProfile{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.modalProfile .profileContent .infoProfile .imageProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.modalProfile .profileContent .infoProfile .imageProfile img{
+    cursor: pointer;
+
+}
+
+.modalProfile .profileContent .infoProfile .imageProfile .changePass{
+    border: none;
+    height: 35px;
+    width: 140px;
+    color: white;
+    background-color: #2d18e9;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.changePass p{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+.modalProfile .profileContent .infoProfile img{
+    padding: 50px;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+.modalProfile .profileContent .infoProfile .name-mail{
+    text-align: start;
+}
+
+.modalProfile .profileContent .infoProfile .name-mail img{
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.modalProfile .profileContent .infoProfile .name-mail .name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modalProfile .profileContent .infoProfile .name-mail .mail{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.actionButtons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    gap: 1rem;
+}
+
+.deleteButton{
+    border: none;
+    height: 35px;
+    width: 140px;
+    color: white;
+    background-color: #FF0000;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.deleteButton img{
+    width: 20px;
+}
+
+.deleteButton p{
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.logout{
+    border: 2px solid #444444;
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: #747474;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logout img{
+    width: 15px;
+}
+
+.logout p{
+    font-size: 0.9rem;
+    font-weight: 900;
+    margin-left: 5px;
+}

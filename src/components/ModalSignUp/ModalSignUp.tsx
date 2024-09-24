@@ -1,7 +1,6 @@
 import { FC, useState } from 'react';
 import './ModalSignUp.css'
 import api from '../../axiosConfig';
-import { redirect } from 'react-router-dom';
 
 interface ModalSignProps{
     isSignOpen: boolean;

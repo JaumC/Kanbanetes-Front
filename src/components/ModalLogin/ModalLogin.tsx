@@ -6,9 +6,10 @@ import ModalSignUp from '../ModalSignUp/ModalSignUp';
 interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
+  onLogin: () => void;
 }
 
-const ModalLogin: FC<ModalProps> = ({ isOpen, onClose }) => {
+const ModalLogin: FC<ModalProps> = ({ isOpen, onClose, onLogin }) => {
   const [isModalSign, setModalSign] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -29,6 +30,8 @@ const ModalLogin: FC<ModalProps> = ({ isOpen, onClose }) => {
         password,
       })
       console.log('Sucesso: ', response.data)
+      localStorage.setItem('authToken', response.data.token)
+      onLogin();
       onClose();
       if(response){
         window.location.href = '/boards'   
